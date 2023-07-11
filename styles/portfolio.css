@@ -157,8 +157,38 @@ main section {
 }
 
 .resume-coloum-title {
-    color:  #474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
 
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-description,
+resume-title-institute {
+    color: #757575;
+}
+
+.resume-item-title {
+    color:  #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+
+}
+.resume-container hr {
+    margin: 30px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-bottom: 0;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
